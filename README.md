@@ -1,6 +1,6 @@
 # Shell Scripts
 
-A collection of handy Shell scripts.
+A collection of handy Shell scripts to improve the way you use your computers.
 
 Big thanks to:
 
