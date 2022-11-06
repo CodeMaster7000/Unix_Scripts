@@ -1,4 +1,4 @@
-# Shell Scripts
+# Unix Scripts
 
 A collection of handy Shell scripts to improve the way you use your computers.
 
