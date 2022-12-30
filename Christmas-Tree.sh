@@ -20,7 +20,7 @@ main() {
     fi
     re='^[0-9]+$'
     if ! [[ $1 =~ $re ]]; then
-        echo "$1 si not a positive integer."
+        echo "$1 is not a positive integer."
         exit 1
     fi
     christmas_tree "$1"
