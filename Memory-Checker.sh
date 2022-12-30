@@ -4,3 +4,4 @@ phymem="$(free | awk '/^Mem:/{print $2}')"
 if [ "$phymem" -lt 1000000 ]; then
   echoerr "A minimum of 1024 MB RAM is required."
   exit 1
+fi
