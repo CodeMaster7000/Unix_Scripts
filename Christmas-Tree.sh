@@ -15,7 +15,7 @@ christmas_tree() {
 }
 main() {
     if [ $# -ne 1 ]; then
-        echo "Yuo must provide only one number."
+        echo "You must provide only one number."
         exit 1
     fi
     re='^[0-9]+$'
