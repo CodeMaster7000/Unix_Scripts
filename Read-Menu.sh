@@ -25,3 +25,4 @@ case $sel in
 	*)
 		echo "Invalid entry." >&2
 		exit 1
+esac
