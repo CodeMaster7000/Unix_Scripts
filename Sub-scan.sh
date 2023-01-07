@@ -6,3 +6,4 @@ for i in $LIST ; do
     [ $? -ne 0 ] && continue
     ENTRY=`echo "$ENTRY" l sed -e 's/.* //' -e 's/\.$//'`
     echo -e "$i\t$ENTRY"
+done
