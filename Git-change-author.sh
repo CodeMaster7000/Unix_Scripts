@@ -1,4 +1,4 @@
-#!
+#!bin/bash
 if [[ -z "$1" || "$1" == "--help" || -z "$2" ]]; then
     echo '   Usage: git-change-author "Your Name" "email@address" [SHA1]'
     exit 1
@@ -18,4 +18,4 @@ done
 git rebase --rebase-merges --committer-date-is-author-date "${START_HASH}"
 echo ""
 echo ""
-echo "Don't forget to run \`git push -f\` - preferably on a test branch first."
+echo "Don't forget to run \`git push -f\` - preferably on a test branch first!"
