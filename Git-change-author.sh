@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 if [[ -z "$1" || "$1" == "--help" || -z "$2" ]]; then
     echo '   Usage: git-change-author "Your Name" "email@address" [SHA1]'
     exit 1
