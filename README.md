@@ -2,7 +2,7 @@
 
 A collection of handy Shell scripts to improve the way you use your computers.
 
-Big thanks to the following websites for some of the scripts:
+Big thanks to the following websites for a few of the scripts:
 
 - https://www.shellscript.sh/index.html 
 - https://regex101.com/ 
