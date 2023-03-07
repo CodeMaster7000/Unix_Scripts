@@ -1,5 +1,4 @@
 #!/bin/bash
-
 function git_http_to_ssh {
     local name=${1}
     local name=${name:=origin}
